@@ -1,0 +1,366 @@
+body{
+  font-family: "Montserrat",sans-serif;
+}
+
+/* Title */
+#title{
+  background: linear-gradient(to right, #333333, #dd1818);
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 12% 27%;
+}
+
+h1{
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5
+}
+
+/* Navigation bar */
+
+.navbar{
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu",sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 8px;
+}
+.nav-item:hover{
+    border-bottom: white solid 2px;
+    color: antiquewhite;
+}
+
+.nav-link{
+  font-family: "Montserrat",sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+/* .download-btn{
+  margin: 5% 3% 5% 0;
+} */
+
+.title-image{
+  width: 90%;
+  position: absolute;
+  right: 10%;
+}
+
+h3{
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+h4{
+  ont-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;  
+}
+
+/* Education */
+
+#education{
+  padding: 7% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.education-box{
+  text-align: center;
+  padding: 0%;
+    margin-bottom: 10px;
+}
+.card{
+    height: 100%;
+    box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.inner{
+    overflow: hidden;
+}
+.card-img-top{
+    width: 100%;
+    height: 150px;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+ 
+.inner:hover img{
+    transform: scale(1.2);
+}
+
+
+/* Training */
+
+#training{
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.training-box1{
+  border: solid #000 2px;
+  padding: 2% 3%;
+  border-bottom-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+  margin: 20px;
+    box-shadow: 10px 14px 26px 1px rgba(194,114,194,0.48);
+}
+
+.training-box2{
+  border: solid #000 2px;
+  padding: 2% 3%;
+  border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+  margin: 20px;
+   box-shadow: 10px 14px 26px 1px rgba(194,114,194,0.48);
+}
+
+.training-title1{
+  text-align: center;
+  padding: 5% 3%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+}
+
+.training-title2{
+  text-align: center;
+  padding: 5% 3%;
+  border-left: solid #000 1.5px;
+}
+
+.training-desc{
+  text-align: left;
+}
+
+
+/* Experience */
+#experience{
+  padding: 7% 8%;
+  text-align: center;
+}
+
+.exp-box{
+  padding: 2.5%;
+  text-align: center;
+  margin: 4% 0;
+}
+
+.quote-container {
+  margin-top: 50px;
+  position: relative;
+}
+
+.note {
+  color: #333;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Montserrat",sans-serif;
+  font-size: 30px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+}
+
+.note .author {
+  display: block;
+  margin: 40px 0 0 0;
+  text-align: right;
+}
+
+.yellow {
+  background: #eae672;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+.yellow2 {
+  background: #eae672;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.pin {
+  background-color: #aaa;
+  display: block;
+  height: 32px;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: -16px;
+  z-index: 1;
+}
+
+.pin:after {
+  background-color: #A31;
+  background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+              inset 3px 3px 3px hsla(0,0%,100%,.2),
+              inset -3px -3px 3px hsla(0,0%,0%,.2),
+              23px 20px 3px hsla(0,0%,0%,.15);
+  content: '';
+  height: 12px;
+  left: -5px;
+  position: absolute;
+  top: -10px;
+  width: 12px;
+}
+
+.pin:before {
+  background-color: hsla(0,0%,0%,0.1);
+  box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
+  content: '';
+  height: 24px;
+  width: 2px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(57.5deg);
+  -moz-transform: rotate(57.5deg);
+  -webkit-transform: rotate(57.5deg);
+  -o-transform: rotate(57.5deg);
+  -ms-transform: rotate(57.5deg);
+  transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+}
+
+/* Projects */
+#projects{
+  background: rgb(241,231,43);
+  background: radial-gradient(circle, rgba(241,231,43,1) 26%, rgba(143,0,0,1) 92%);
+  text-align: center;
+  padding: 7% 13%;
+}
+
+.project-box{
+  border: solid #000 3px;
+  border-radius: 1.5rem;
+  padding: 0.5% 2%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+
+/* Skills */
+
+#skills{
+  padding: 5% 4% 10%;
+  text-align: center;
+}
+
+#skill-box{
+  text-align: center;
+  padding: 1.5%;
+}
+
+.skill-pic{
+  border-radius: 100%;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 50%;
+}
+
+
+/* Awards */
+#awards{
+  background: rgb(241,231,43);
+  background: radial-gradient(circle, rgba(241,231,43,1) 26%, rgba(143,0,0,1) 92%);
+  text-align: center;
+  padding-top: 5%;
+}
+
+.carousel-control-prev-icon{
+  background-color: #000;
+}
+
+.carousel-control-next-icon{
+  background-color: #000;
+}
+
+
+.social-icon{
+  margin: 10px;
+}
+h2{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.dog-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #fff;
+  padding: 3% 15%;
+  text-align: center;
+}
+
+#footer{
+  background-color: #fff;
+  padding-bottom: 20px;
+  text-align: center;
+}
